@@ -118,7 +118,7 @@ for (let i = 0; i < 12; i++) {
   } while (catList[random].unused === false);
 
   imgs[i] = document.createElement('img');
-  imgs[i].setAttribute('data-src', catList[random].src);
+  imgs[i].setAttribute('src', catList[random].src);
   imgs[i].style.width = '350px';
   imgs[i].style.margin = '20px';
   imgs[i].style.boxSizing = 'border-box';
